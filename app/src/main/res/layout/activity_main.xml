@@ -10,11 +10,12 @@
 
     <TextView
         android:id="@+id/outputText"
-        android:layout_width="167dp"
-        android:layout_height="63dp"
-        android:gravity="center"
-        android:lineHeight="64sp"
+        android:layout_width="342dp"
+        android:layout_height="193dp"
+        android:gravity="left"
+        android:lineHeight="32sp"
         android:text="Result"
+        android:textAlignment="gravity"
         android:textSize="32sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
